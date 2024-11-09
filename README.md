@@ -31,4 +31,4 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/DaniArranzOlmos/ListaTareas.git
