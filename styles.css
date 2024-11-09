@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilo del formulario */
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#formulario label {
+    font-size: 1rem;
+    color: #333;
+}
+
+#formulario input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#formulario input[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#formulario input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para los post-its */
+.postIt {
+    background-color: #fffd75;
+    padding: 15px;
+    margin: 10px 0;
+    width: 280px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.postIt::before {
+    content: '📝 ';
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
