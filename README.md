@@ -1,4 +1,4 @@
-# 📝 Lista de Tareas
+# ![Título](img/titulo.png)
 
 Este proyecto es una aplicación web simple que permite gestionar tareas mediante un formato de notas adhesivas. Usando tecnologías como HTML, CSS y JavaScript, esta aplicación ofrece una manera visualmente atractiva y funcional de agregar y ver tareas.
 
@@ -25,8 +25,10 @@ Este proyecto incluye las siguientes funcionalidades:
 - **Vista de tareas**: Cada tarea se muestra en un formato de post-it para facilitar su visualización.
 - **Interacción dinámica**: Las tareas se agregan sin recargar la página, utilizando JavaScript para la manipulación del DOM.
 
-## Instalación
+## 🛠️ Instalación
 
-1. Clona el repositorio o descarga el código fuente.
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/DaniArranzOlmos/ListaTareas
+   git clone https://github.com/tu-usuario/tu-repositorio.git
