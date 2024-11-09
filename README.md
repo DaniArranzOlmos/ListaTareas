@@ -24,3 +24,9 @@ Este proyecto incluye las siguientes funcionalidades:
 - **Agregar tareas**: Escribe una tarea en el campo de texto y agrégala a la lista al hacer clic en el botón **"Agregar tarea"**.
 - **Vista de tareas**: Cada tarea se muestra en un formato de post-it para facilitar su visualización.
 - **Interacción dinámica**: Las tareas se agregan sin recargar la página, utilizando JavaScript para la manipulación del DOM.
+
+## Instalación
+
+1. Clona el repositorio o descarga el código fuente.
+   ```bash
+   git clone https://github.com/DaniArranzOlmos/ListaTareas
