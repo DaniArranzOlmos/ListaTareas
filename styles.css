@@ -57,23 +57,44 @@ h1 {
     background-color: #45a049;
 }
 
-/* Estilo para los post-its */
+/* Estilo para las tareas */
+#listaTareas {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
 .postIt {
     background-color: #fffd75;
     padding: 15px;
     margin: 10px 0;
-    width: 280px;
     text-align: left;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-size: 1rem;
     color: #333;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.postIt::before {
-    content: '📝 ';
-    margin-right: 10px;
-    font-size: 1.2rem;
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e53935;
+}
+
+/* Estilo para tareas completadas */
+.postIt.completada {
+    text-decoration: line-through;
+    background-color: #dcdcdc;
 }
